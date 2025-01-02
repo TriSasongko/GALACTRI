@@ -17,7 +17,7 @@ export default function RootLayout({
       <body>
         {/* navbar */}
         <nav className="bg-blue-500 p-6">
-          <div className="flex gap-4">
+          <div className="flex justify-center gap-4">
             {/* Link navigasi antar halaman*/}
             <Link href="/" className="text-white hover:text-gray-200">
               Home
