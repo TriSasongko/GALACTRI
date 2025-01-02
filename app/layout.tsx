@@ -15,7 +15,13 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {/* navbar */}
-        <nav className="bg-blue-500 p-6"></nav>
+        <nav className="bg-blue-500 p-6">
+          <div className="flex gap-4">
+            <span>Home</span>
+            <span>Produk</span>
+            <span>About</span>
+          </div>
+        </nav>
         {children}
       </body>
     </html>
