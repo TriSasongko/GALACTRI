@@ -18,10 +18,13 @@ export default function RootLayout({
         {/* navbar */}
         <nav className="bg-blue-500 p-6">
           <div className="flex gap-4">
+            {/* Link navigasi antar halaman*/}
           <Link href="/" className="text-white hover:text-gray-200">
               Home
             </Link>
-            <span>Produk</span>
+            <Link href="./modules/produk" className="text-white hover:text-gray-200">
+                Produk
+              </Link>
             <span>About</span>
           </div>
         </nav>
