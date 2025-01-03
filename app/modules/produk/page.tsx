@@ -38,8 +38,10 @@ export default function ProdukPage() {
               />
             </div>
             <div className="p-4">
-              <h2>{product.name}</h2>
-              <p>{product.price}</p>
+              <h2 className="font-semibold text-xl text-gray-800">
+                {product.name}
+              </h2>
+              <p className="text-gray-500">{product.price}</p>
               <button>Lihat Detail</button>
             </div>
           </li>
