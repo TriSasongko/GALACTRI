@@ -37,7 +37,7 @@ export default function ProdukPage() {
                 className="max-w-full max-h-full object-contain"
               />
             </div>
-            <div>
+            <div className="p-4">
               <h2>{product.name}</h2>
               <p>{product.price}</p>
               <button>Lihat Detail</button>
