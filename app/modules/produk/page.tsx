@@ -26,7 +26,10 @@ export default function ProdukPage() {
       </h1>
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {products.map((product) => (
-          <li key={product.id}>
+          <li
+            key={product.id}
+            className="border rounded-lg shadow-lg bg-white overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+          >
             <div>
               <img src={product.image} alt={product.name} />
             </div>
