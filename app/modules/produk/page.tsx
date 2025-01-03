@@ -22,7 +22,10 @@ export default function ProdukPage() {
   return (
     <main>
       <h1>Produk</h1>
-      <ul></ul>
+      <ul>
+      {products.map((product) => (
+        ))}
+      </ul>
     </main>
   );
 }
