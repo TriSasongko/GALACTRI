@@ -24,7 +24,11 @@ export default function ProdukPage() {
       <h1>Produk</h1>
       <ul>
         {products.map((product) => (
-          <li key={product.id}></li>
+          <li key={product.id}>
+            <div>
+              <img src={product.image} alt={product.name} />
+            </div>
+          </li>
         ))}
       </ul>
     </main>
