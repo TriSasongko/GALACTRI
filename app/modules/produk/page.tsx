@@ -30,8 +30,12 @@ export default function ProdukPage() {
             key={product.id}
             className="border rounded-lg shadow-lg bg-white overflow-hidden hover:shadow-2xl transition-shadow duration-300"
           >
-            <div>
-              <img src={product.image} alt={product.name} />
+            <div className="w-full h-48 bg-gray-200 flex items-center justify-center">
+              <img
+                src={product.image}
+                alt={product.name}
+                className="max-w-full max-h-full object-contain"
+              />
             </div>
             <div>
               <h2>{product.name}</h2>
