@@ -23,7 +23,8 @@ export default function ProdukPage() {
     <main>
       <h1>Produk</h1>
       <ul>
-      {products.map((product) => (
+        {products.map((product) => (
+          <li key={product.id}></li>
         ))}
       </ul>
     </main>
