@@ -24,7 +24,7 @@ export default function ProdukPage() {
       <h1 className="text-4xl font-bold text-center mb-8 text-blue-600">
         Produk
       </h1>
-      <ul>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {products.map((product) => (
           <li key={product.id}>
             <div>
