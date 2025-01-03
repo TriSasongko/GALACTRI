@@ -22,6 +22,7 @@ export default function ProdukPage() {
   return (
     <main>
       <h1>Produk</h1>
+      <ul></ul>
     </main>
   );
 }
