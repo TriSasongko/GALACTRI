@@ -20,7 +20,7 @@ export default function ProdukPage() {
     },
   ];
   return (
-    <main>
+    <main className="p-6 bg-gray-100 min-h-screen">
       <h1>Produk</h1>
       <ul>
         {products.map((product) => (
