@@ -28,6 +28,9 @@ export default function ProdukPage() {
             <div>
               <img src={product.image} alt={product.name} />
             </div>
+            <div>
+              <h2>{product.name}</h2>
+            </div>
           </li>
         ))}
       </ul>
