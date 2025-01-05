@@ -16,4 +16,10 @@ const AboutPage = () => {
           </h1>
         </div>
       </div>
+      </div>
+  );
+};
+
+export default AboutPage;
+
         
