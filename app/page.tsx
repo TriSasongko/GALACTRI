@@ -5,9 +5,9 @@ export default function Home() {
       <p className="mb-6">Temukan Motor Impian Anda</p>
 
       <div className="flex justify-center gap-4">
-        <button className="bg-blue-500 text-white px-6 py-2">Sport</button>
-        <button className="bg-blue-500 text-white px-6 py-2">Matic</button>
-        <button className="bg-blue-500 text-white px-6 py-2">Trail</button>
+        <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">Sport</button>
+        <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">Matic</button>
+        <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">Trail</button>
       </div>
 
     </div>
