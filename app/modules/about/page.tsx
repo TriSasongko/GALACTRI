@@ -18,15 +18,21 @@ const AboutPage = () => {
       </div>
 
        {/* Area Konten */}
-       <div className="py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-        <div className="mt-12">
-            <h2 className="text-3xl font-bold text-gray-900">Tentang Catalog Motor</h2>
-             <p className="mt-4 text-gray-600">
-              Catalog Motor adalah platform yang dirancang untuk membantu Anda menemukan berbagai jenis motor dengan mudah. 
-              Kami menyediakan informasi lengkap tentang spesifikasi, harga, dan ulasan dari berbagai merek dan model motor. 
-              Dengan antarmuka yang ramah pengguna, Anda dapat dengan cepat membandingkan motor yang Anda minati dan membuat keputusan yang tepat sebelum membeli.
-            </p>
+       <div className="mt-12 bg-gradient-to-r from-blue-200 to-white p-8 rounded-lg shadow-lg">
+  <h2 className="text-4xl font-extrabold text-gray-900">Tentang Catalog Motor</h2>
+  <div className="mt-4 flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
+    <div className="sm:w-1/2">
+      <p className="mt-4 text-gray-700 text-justify">
+        "Catalog Motor adalah platform yang dirancang untuk membantu Anda menemukan berbagai jenis motor
+        dengan mudah. Kami menyediakan informasi lengkap tentang spesifikasi, harga, dan ulasan dari berbagai 
+        merek dan model motor. Dengan antarmuka yang ramah pengguna, Anda dapat dengan cepat membandingkan 
+        motor yang Anda minati dan membuat keputusan yang tepat sebelum membeli. Selain itu, kami juga 
+        menawarkan berbagai fitur canggih seperti pencarian berdasarkan preferensi pribadi, filter berdasarkan 
+        jenis motor, dan rekomendasi motor terbaik sesuai dengan anggaran Anda. Catalog Motor selalu diperbarui 
+        dengan informasi terbaru, memastikan Anda mendapatkan data terkini tentang motor pilihan Anda.
+        Kami berkomitmen untuk memberikan pengalaman belanja yang aman, nyaman, dan menyenangkan bagi
+        setiap pengunjung yang mencari motor impian mereka."
+      </p>
             </div>
             
             
