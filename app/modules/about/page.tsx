@@ -33,7 +33,16 @@ const AboutPage = () => {
         Kami berkomitmen untuk memberikan pengalaman belanja yang aman, nyaman, dan menyenangkan bagi
         setiap pengunjung yang mencari motor impian mereka."
       </p>
-            </div>
+      </div>
+      <div className="sm:w-1/3 mt-6 sm:mt-0 group relative">
+      <img 
+        src="/pp.jpg" 
+        alt="Motor" 
+        className="w-full h-auto object-cover rounded-lg shadow-xl
+         group-hover:opacity-80 transition-opacity duration-300" 
+      />
+      
+      </div>
             
             
       </div>
