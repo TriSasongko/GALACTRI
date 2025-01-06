@@ -23,7 +23,7 @@ export default function Home() {
               src="/crf.png"
               alt="Sport Motorcycle"
               fill
-              className="object-cover"
+              className="object-contain"
             />
           </div>
           <div className="p-6">
@@ -36,10 +36,27 @@ export default function Home() {
             </button>
           </div>
         </div>
-        
-        <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
-          Matic
+
+        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+          <div className="h-48 relative">
+            <Image
+              src="/vario.png"
+              alt="Sport Motorcycle"
+              fill
+              className="object-contain"
+            />
+          </div>
+          <div className="p-6">
+            <h3 className="font-bold text-xl mb-2">Matic</h3>
+            <p className="text-gray-600 mb-4">
+            Motor dengan kenyamanan berkendara sehari-hari
+            </p>
+            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
+          Lihat Semua
         </button>
+          </div>
+        </div>
+        
         <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
           Trail
         </button>
