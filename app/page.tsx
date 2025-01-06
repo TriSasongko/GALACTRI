@@ -17,6 +17,7 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+      <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
         <div className="h-48 relative">
           <Image
             src="/crf.png"
@@ -25,11 +26,11 @@ export default function Home() {
             className="object-cover"
           />
         </div>
-
-
+        
         <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
           Sport
         </button>
+        </div>
         <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
           Matic
         </button>
