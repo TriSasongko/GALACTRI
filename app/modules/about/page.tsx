@@ -63,6 +63,7 @@ const AboutPage = () => {
                 name: "GALUH MAHESA PUTRA",
                 img: "https://via.placeholder.com/150"
               }].map((member, index) => (
+                
             </div>
             
         </div>
