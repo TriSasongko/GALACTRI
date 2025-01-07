@@ -23,7 +23,7 @@ export default function RootLayout({
               Home
             </Link>
             <Link
-              href="./modules/produk"
+              href="/modules/produk"
               className="text-white hover:text-gray-200"
             >
               Produk
