@@ -80,7 +80,7 @@ export default function Home() {
 
       {/* Banner Promo */}
       <div className="mt-12 mb-8">
-        <div>
+        <div className="bg-gradient-to-r from-blue-600 to-blue-400 text-white">
           <h2 className="text-2xl font-bold mb-2">Promo Spesial Bulan Ini!</h2>
           <p className="mb-4">
             Dapatkan penawaran menarik untuk setiap pembelian motor</p>
