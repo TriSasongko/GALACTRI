@@ -36,6 +36,9 @@ export default function ProdukPage() {
       </h1>
 
       <div className="mb-6 flex items-center">
+        <span className="text-gray-600 mr-2">
+          <i className="fas fa-search"></i>
+        </span>
         <input
           type="text"
           value={searchQuery}
