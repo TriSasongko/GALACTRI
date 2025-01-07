@@ -63,7 +63,16 @@ const AboutPage = () => {
                 name: "GALUH MAHESA PUTRA",
                 img: "https://via.placeholder.com/150"
               }].map((member, index) => (
-                
+                <div 
+                  key={index} 
+                  className="group bg-gradient-to-t from-gray-100 to-white p-6 rounded-lg shadow-lg border-2 border-blue-500 transition transform hover:scale-105 hover:shadow-2xl">
+                  <img
+                    className="w-32 h-32 mx-auto rounded-lg group-hover:ring-4 group-hover:ring-blue-400"
+                    src={member.img}
+                    alt={member.name}
+                  />
+                  
+                  </div>
             </div>
             
         </div>
