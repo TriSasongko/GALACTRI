@@ -21,6 +21,8 @@ export default function ProdukPage() {
       image: "/vario.png",
     },
   ];
+  const [searchQuery, setSearchQuery] = useState("");
+
   return (
     <main className="p-6 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold text-center mb-8 text-blue-600">
