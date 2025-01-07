@@ -84,6 +84,11 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-2">Promo Spesial Bulan Ini!</h2>
           <p className="mb-4">
             Dapatkan penawaran menarik untuk setiap pembelian motor</p>
+            <ul className="text-white/90 mb-8 space-y-2">
+                <li>✓ Cashback hingga 2 juta rupiah</li>
+                <li>✓ Gratis service berkala 6 bulan</li>
+                <li>✓ Bonus aksesori eksklusif</li>
+              </ul>
           <button className="bg-white text-blue-600 px-6 py-2 rounded-lg hover:bg-gray-100">
             Lihat Detail Promo</button>
         </div>
