@@ -29,7 +29,7 @@ export default function Home() {
           <div className="p-6">
             <h3 className="font-bold text-xl mb-2">Trail</h3>
             <p className="text-gray-600 mb-4">
-            Motor trail untuk pengalaman offroad yang menantang
+              Motor trail untuk pengalaman offroad yang menantang
             </p>
             <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
               Lihat Semua
@@ -49,11 +49,11 @@ export default function Home() {
           <div className="p-6">
             <h3 className="font-bold text-xl mb-2">Matic</h3>
             <p className="text-gray-600 mb-4">
-            Motor dengan kenyamanan berkendara sehari-hari
+              Motor dengan kenyamanan berkendara sehari-hari
             </p>
             <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
-          Lihat Semua
-        </button>
+              Lihat Semua
+            </button>
           </div>
         </div>
 
@@ -69,12 +69,20 @@ export default function Home() {
           <div className="p-6">
             <h3 className="font-bold text-xl mb-2">Sport</h3>
             <p className="text-gray-600 mb-4">
-            Motor sport dengan performa tinggi dan desain agresif
+              Motor sport dengan performa tinggi dan desain agresif
             </p>
             <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
-          Lihat Semua
-        </button>
+              Lihat Semua
+            </button>
           </div>
+        </div>
+      </div>
+
+      {/* Banner Promo */}
+      <div className="mt-12 mb-8">
+        <div>
+          <h2>Promo Spesial Bulan Ini!</h2>
+          <p>Dapatkan penawaran menarik untuk setiap pembelian motor</p>
         </div>
       </div>
     </div>
