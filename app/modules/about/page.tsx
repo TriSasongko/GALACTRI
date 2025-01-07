@@ -46,6 +46,8 @@ const AboutPage = () => {
        <p>Motor Impian Anda!</p>
         </div>
         </div>
+        </div>
+        </div>
 
         {/* Team Section */}
         <div className="mt-12 space-y-12">
@@ -58,7 +60,7 @@ const AboutPage = () => {
                 img: "https://via.placeholder.com/150"
               }, {
                 name: "TRI SASONGKO",
-                img: "/tritest.jpg"
+                img: "/"
               }, {
                 name: "GALUH MAHESA PUTRA",
                 img: "https://via.placeholder.com/150"
@@ -72,17 +74,18 @@ const AboutPage = () => {
                     src={member.img}
                     alt={member.name}
                   />
+                   <h1 className="mt-4 text-2xl font-bold text-gray-900 group-hover:text-indigo-400 text-center tracking-wide uppercase">
+                    {member.name}
+                  </h1>
+                </div>
+              ))}
+            </div>
+          </div>
 
-                  </div>
+           
             </div>
             
-        </div>
-      
-      </div>   
-      </div>
-      </div>
-     
-  );
+  );       
 };
 
 export default AboutPage;
