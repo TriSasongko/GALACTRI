@@ -41,6 +41,9 @@ const AboutPage = () => {
         className="w-full h-auto object-cover rounded-lg shadow-xl
          group-hover:opacity-80 transition-opacity duration-300" 
       />
+       {/* overlay */}
+       <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        </div>
       
       </div>
             
