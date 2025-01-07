@@ -82,7 +82,9 @@ export default function Home() {
       <div className="mt-12 mb-8">
         <div>
           <h2 className="text-2xl font-bold mb-2">Promo Spesial Bulan Ini!</h2>
-          <p className="mb-4">Dapatkan penawaran menarik untuk setiap pembelian motor</p>
+          <p className="mb-4">
+            Dapatkan penawaran menarik untuk setiap pembelian motor</p>
+          <button className="px-6 py-2">Lihat Detail Promo</button>
         </div>
       </div>
     </div>
