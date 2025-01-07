@@ -74,7 +74,8 @@ const AboutPage = () => {
                     src={member.img}
                     alt={member.name}
                   />
-                   <h1 className="mt-4 text-2xl font-bold text-gray-900 group-hover:text-indigo-400 text-center tracking-wide uppercase">
+                   <h1 className="mt-4 text-2xl font-bold text-gray-900 group-hover:text-indigo-400
+                   text-center tracking-wide uppercase">
                     {member.name}
                   </h1>
                 </div>
