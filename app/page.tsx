@@ -83,15 +83,21 @@ export default function Home() {
         <div className="p-8 rounded-lg bg-gradient-to-r from-blue-600 to-blue-400 text-white text-left">
           <h2 className="text-2xl font-bold mb-2">Promo Spesial Bulan Ini!</h2>
           <p className="mb-4">
-            Dapatkan penawaran menarik untuk setiap pembelian motor</p>
-            <ul className="text-white/90 mb-8 space-y-2">
-                <li>✓ Cashback hingga 2 juta rupiah</li>
-                <li>✓ Gratis service berkala 6 bulan</li>
-                <li>✓ Bonus aksesori eksklusif</li>
-              </ul>
+            Dapatkan penawaran menarik untuk setiap pembelian motor
+          </p>
+          <ul className="text-white/90 mb-8 space-y-2">
+            <li>✓ Cashback hingga 2 juta rupiah</li>
+            <li>✓ Gratis service berkala 6 bulan</li>
+            <li>✓ Bonus aksesori eksklusif</li>
+          </ul>
           <button className="bg-white text-blue-600 px-6 py-2 rounded-lg hover:bg-gray-100">
-            Lihat Detail Promo</button>
+            Lihat Detail Promo
+          </button>
         </div>
+      </div>
+
+      {/* Mengapa Memilih Kami */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
       </div>
     </div>
   );
