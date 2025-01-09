@@ -119,6 +119,17 @@ export default function Home() {
             Dapatkan harga kompetitif dengan cicilan yang ringan
           </p>
         </div>
+
+        {/* Card 3 */}
+        <div className="bg-white rounded-xl border-2 border-blue-500 p-6">
+          <div className="flex justify-center mb-4">
+            <span className="text-4xl text-blue-500">🔧</span>
+          </div>
+          <h3 className="font-bold text-xl mb-2">Layanan Prima</h3>
+          <p className="text-gray-600">
+            Gratis servis berkala dan dukungan teknis 24/7
+          </p>
+        </div>
       </div>
     </div>
   );
