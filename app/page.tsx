@@ -99,7 +99,9 @@ export default function Home() {
       {/* Mengapa Memilih Kami */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
         <div className="bg-white rounded-xl border-2 border-blue-500 p-6">
-          
+          <div className="flex justify-center mb-4">
+            <span className="text-4xl text-blue-500">✓</span>
+          </div>
         </div>
       </div>
     </div>
