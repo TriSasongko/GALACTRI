@@ -102,6 +102,7 @@ export default function Home() {
           <div className="flex justify-center mb-4">
             <span className="text-4xl text-blue-500">✓</span>
           </div>
+          <h3 className="font-bold text-xl mb-2">Kualitas Terjamin</h3>
         </div>
       </div>
     </div>
