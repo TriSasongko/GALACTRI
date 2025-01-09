@@ -103,6 +103,9 @@ export default function Home() {
             <span className="text-4xl text-blue-500">✓</span>
           </div>
           <h3 className="font-bold text-xl mb-2">Kualitas Terjamin</h3>
+          <p className="text-gray-600">
+            Semua motor kami memiliki garansi resmi dan terjamin kualitasnya
+          </p>
         </div>
       </div>
     </div>
