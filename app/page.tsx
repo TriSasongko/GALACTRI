@@ -98,6 +98,7 @@ export default function Home() {
 
       {/* Mengapa Memilih Kami */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
+        {/* Card 1 */}
         <div className="bg-white rounded-xl border-2 border-blue-500 p-6">
           <div className="flex justify-center mb-4">
             <span className="text-4xl text-blue-500">✓</span>
@@ -105,6 +106,17 @@ export default function Home() {
           <h3 className="font-bold text-xl mb-2">Kualitas Terjamin</h3>
           <p className="text-gray-600">
             Semua motor kami memiliki garansi resmi dan terjamin kualitasnya
+          </p>
+        </div>
+
+        {/* Card 2 */}
+        <div className="bg-white rounded-xl border-2 border-blue-500 p-6">
+          <div className="flex justify-center mb-4">
+            <span className="text-4xl text-blue-500">⭐</span>
+          </div>
+          <h3 className="font-bold text-xl mb-2">Harga Terbaik</h3>
+          <p className="text-gray-600">
+            Dapatkan harga kompetitif dengan cicilan yang ringan
           </p>
         </div>
       </div>
