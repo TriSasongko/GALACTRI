@@ -9,18 +9,21 @@ export default function ProdukPage() {
       name: "PCX",
       price: "Rp 15.000.000",
       image: "/PCX.png",
+      category: "matic",
     },
     {
       id: 2,
       name: "Kawasaki",
       price: "Rp 18.000.000",
       image: "/kws650.png",
+      category: "sport",
     },
     {
       id: 3,
       name: "Vario",
       price: "Rp 20.000.000",
       image: "/vario.png",
+      category: "matic",
     },
   ];
   const [searchQuery, setSearchQuery] = useState("");
