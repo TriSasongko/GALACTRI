@@ -56,6 +56,27 @@ export default function ProdukPage() {
           className="w-full p-3 pl-10 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
         />
       </div>
+      {/* Filter kategori */}
+      <div className="mb-6 flex justify-center gap-4">
+        {[
+          { label: "Semua", value: "all" },
+          { label: "Matic", value: "matic" },
+          { label: "Trail", value: "trail" },
+          { label: "Sport", value: "sport" },
+        ].map((category) => (
+          <button
+            key={category.value}
+            onClick={() => setSelectedCategory(category.value)}
+            className={`px-4 py-2 rounded-lg border transition-colors shadow-sm ${
+              selectedCategory === category.value
+                ? "bg-blue-500 text-white border-blue-500"
+                : "bg-white text-gray-600 border-gray-300 hover:bg-gray-100"
+            }`}
+          >
+            {category.label}
+          </button>
+        ))}
+      </div>
 
       <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {filteredProducts.length > 0 ? (
