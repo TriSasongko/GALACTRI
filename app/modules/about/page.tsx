@@ -107,8 +107,16 @@ const AboutPage = () => {
                 alt={member.name}
               />
             </div>
+            {/* Text Content */}
+            <div className="text-center space-y-3">
+              <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 
+              transition-colors duration-300">
+                {member.name}
+              </h3>
+              <p className="text-blue-600 font-medium">{member.role}</p>
 
-           </div>  
+        </div>
+        </div>  
         </div>
 
       </div>
