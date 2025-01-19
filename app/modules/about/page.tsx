@@ -107,6 +107,7 @@ const AboutPage = () => {
                 alt={member.name}
               />
             </div>
+
             {/* Text Content */}
             <div className="text-center space-y-3">
               <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 
@@ -114,6 +115,11 @@ const AboutPage = () => {
                 {member.name}
               </h3>
               <p className="text-blue-600 font-medium">{member.role}</p>
+
+            {/* Divider */}
+            <div className="w-16 h-0.5 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto"></div>
+
+            
 
         </div>
         </div>  
