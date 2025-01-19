@@ -58,10 +58,42 @@ const AboutPage = () => {
        <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto rounded-full" />
         <p className="text-grey-600 max-w-2xl mx-auto">
       Bersama-sama kami berkomitmen untuk memberikan solusi terbaik bagi setiap kebutuhan digital Anda.
-        </p>
+      </p>
       </div>
-        </div>
+
+      <div className="max-w-7xl mx-auto px-4">
+      <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
+         {/* Team Member */}
+         {[
+        {
+          name: "LUDFI ERIC FERNANDO",
+          role: "Backend Developer",
+          img: "/eric.jpg",
+          instagram: "@eric_fernando",
+          email: "eric@example.com",
+        },
+        {
+          name: "TRI SASONGKO",
+          role: "UI/UX Designer",
+          img: "/tritest.jpg",
+          instagram: "@tri_sasongko",
+          email: "tri@example.com",
+        },
+        {
+          name: "GALUH MAHESA PUTRA",
+          role: "UI/UX Developer",
+          img: "/galuh.jpg",
+          instagram: "@galuh_mahesa",
+          email: "galuh@example.com",
+        },
         
+      </div>
+      </div>
+
+
+        </div>
+
+
         
 
 
