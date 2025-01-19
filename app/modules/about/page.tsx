@@ -86,6 +86,30 @@ const AboutPage = () => {
           instagram: "@galuhmahesaaa",
           email: "galuhmahesaputra270103@gmail.com",
         },
+      ].map((member, index) => (
+        <div
+          key={index}
+          className="group relative bg-white rounded-2xl shadow-lg transition-all 
+          duration-500 hover:-translate-y-2 hover:shadow-2xl overflow-hidden"
+        >
+          {/* Decorative Background Pattern */}
+          <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-br from-blue-500/10
+           to-indigo-500/10 pointer-events-none"></div>
+           {/* Content Container */}
+           <div className="relative px-6 pt-20 pb-8">
+             {/* Profile Image */}
+             <div className="relative -mt-16 mb-6 w-36 h-36 mx-auto rounded-full overflow-hidden 
+             ring-4 ring-white shadow-xl">
+              <img
+                className="w-full h-full object-cover transform group-hover:scale-110 
+                transition-transform duration-500"
+                src={member.img}
+                alt={member.name}
+              />
+            </div>
+
+           </div>  
+        </div>
 
       </div>
       </div>
