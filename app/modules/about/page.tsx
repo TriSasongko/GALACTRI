@@ -69,21 +69,21 @@ const AboutPage = () => {
           name: "LUDFI ERIC FERNANDO",
           role: "Backend Developer",
           img: "/eric.jpg",
-          instagram: "@ludfi_eric.f",
+          instagram: "ludfi_eric.f",
           email: "ericludfi19@gmail.com",
         },
         {
           name: "TRI SASONGKO",
           role: "UI/UX Designer",
           img: "/tritest.jpg",
-          instagram: "@trssngko",
+          instagram: "trssngko",
           email: "trisasongko010@gmail.com",
         },
         {
           name: "GALUH MAHESA PUTRA",
           role: "UI/UX Developer",
           img: "/galuh.jpg",
-          instagram: "@galuhmahesaaa",
+          instagram: "galuhmahesaaa",
           email: "galuhmahesaputra270103@gmail.com",
         },
       ].map((member, index) => (
@@ -119,12 +119,31 @@ const AboutPage = () => {
             {/* Divider */}
             <div className="w-16 h-0.5 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto"></div>
 
-            
+              {/* Social Links */}
+              <div className="flex flex-col items-center space-y-2 pt-2">
+                <a
+                  href={`https://instagram.com/${member.instagram}`}
+                  className="inline-flex items-center space-x-2 text-gray-600
+                   hover:text-pink-500 transition-all duration-300 group-hover:translate-x-1"
+                >
+                  <span className="text-sm font-medium">{member.instagram}</span>
+                </a>
+                <a
+                  href={`mailto:${member.email}`}
+                  className="inline-flex items-center space-x-2 text-gray-600
+                   hover:text-blue-500 transition-all duration-300 group-hover:translate-x-1"
+                >
+                  <span className="text-sm font-medium">{member.email}</span>
+                </a>
+              </div>
+
+
+
 
         </div>
         </div>  
         </div>
-
+        ))}
       </div>
       </div>
 
