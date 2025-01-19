@@ -69,24 +69,24 @@ const AboutPage = () => {
           name: "LUDFI ERIC FERNANDO",
           role: "Backend Developer",
           img: "/eric.jpg",
-          instagram: "@eric_fernando",
-          email: "eric@example.com",
+          instagram: "@ludfi_eric.f",
+          email: "ericludfi19@gmail.com",
         },
         {
           name: "TRI SASONGKO",
           role: "UI/UX Designer",
           img: "/tritest.jpg",
-          instagram: "@tri_sasongko",
-          email: "tri@example.com",
+          instagram: "@trssngko",
+          email: "trisasongko010@gmail.com",
         },
         {
           name: "GALUH MAHESA PUTRA",
           role: "UI/UX Developer",
           img: "/galuh.jpg",
-          instagram: "@galuh_mahesa",
-          email: "galuh@example.com",
+          instagram: "@galuhmahesaaa",
+          email: "galuhmahesaputra270103@gmail.com",
         },
-        
+
       </div>
       </div>
 
