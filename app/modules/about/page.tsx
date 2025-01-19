@@ -50,41 +50,24 @@ const AboutPage = () => {
         </div>
 
         {/* Team Section */}
-        <div className="mt-12 space-y-12">
-            <h2 className="text-4xl font-extrabold text-gray-900 text-center">Tim Kami</h2>
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 py-16 bg-gradient-to-b from-white to-blue-200">
+        <div className="text-center space-y-4 mb-16">
+        <h2 className="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
+        Tim Kami
+        </h2>
+       <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto rounded-full" />
+        <p className="text-grey-600 max-w-2xl mx-auto">
+      Bersama-sama kami berkomitmen untuk memberikan solusi terbaik bagi setiap kebutuhan digital Anda.
+        </p>
+      </div>
+        </div>
+        
+        
 
-              {/* Team Member */}
-              {[{
-                name: "LUDFI ERIC FERNANDO",
-                img: "https://via.placeholder.com/150"
-              }, {
-                name: "TRI SASONGKO",
-                img: "/"
-              }, {
-                name: "GALUH MAHESA PUTRA",
-                img: "https://via.placeholder.com/150"
-              }].map((member, index) => (
-                <div 
-                  key={index} 
-                  className="group bg-gradient-to-t from-gray-100 to-white p-6 rounded-lg shadow-lg 
-                  border-2 border-blue-500 transition transform hover:scale-105 hover:shadow-2xl">
-                  <img
-                    className="w-32 h-32 mx-auto rounded-lg group-hover:ring-4 group-hover:ring-blue-400"
-                    src={member.img}
-                    alt={member.name}
-                  />
-                   <h1 className="mt-4 text-2xl font-bold text-gray-900 group-hover:text-indigo-400
-                   text-center tracking-wide uppercase">
-                    {member.name}
-                  </h1>
-                </div>
-              ))}
-            </div>
-          </div>
 
-           
-            </div>
+
+
+        </div>
             
   );       
 };
