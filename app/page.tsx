@@ -22,7 +22,7 @@ export default function Home() {
       <h1 className="font-bold mb-4">Selamat Datang di Katalog Motor</h1>
       <p className="mb-6">Temukan Motor Impian Anda</p>
 
-      <div className="mb-6">
+      <form onSubmit={handleSearch} className="mb-6">
         <input
           type="text"
           placeholder="Cari Motor..."
@@ -31,7 +31,7 @@ export default function Home() {
         <button className="bg-blue-500 text-white px-4 py-2 ml-2 rounded-lg hover:bg-blue-600">
           Search
         </button>
-      </div>
+      </form>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
         <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
