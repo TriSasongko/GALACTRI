@@ -1,6 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
+
 export default function Home() {
+
+  const [searchQuery, setSearchQuery] = useState("");
+
   return (
     <div className="text-center">
       <h1 className="font-bold mb-4">Selamat Datang di Katalog Motor</h1>
