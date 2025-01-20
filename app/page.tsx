@@ -32,9 +32,11 @@ export default function Home() {
             <p className="text-gray-600 mb-4">
               Motor trail untuk pengalaman offroad yang menantang
             </p>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
-              Lihat Semua
-            </button>
+            <Link href="/modules/produk?category=trail">
+              <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
+                Lihat Semua
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -52,9 +54,11 @@ export default function Home() {
             <p className="text-gray-600 mb-4">
               Motor dengan kenyamanan berkendara sehari-hari
             </p>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
-              Lihat Semua
-            </button>
+            <Link href="/modules/produk?category=matic">
+              <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
+                Lihat Semua
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -72,9 +76,11 @@ export default function Home() {
             <p className="text-gray-600 mb-4">
               Motor sport dengan performa tinggi dan desain agresif
             </p>
-            <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
-              Lihat Semua
-            </button>
+            <Link href="/modules/produk?category=sport">
+              <button className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600">
+                Lihat Semua
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -98,7 +104,9 @@ export default function Home() {
       </div>
 
       {/* Mengapa Memilih Kami */}
-      <h2 className="text-3xl font-bold text-center mb-8">Mengapa Memilih Kami?</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">
+        Mengapa Memilih Kami?
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
         {/* Card 1 */}
         <div className="bg-white rounded-xl border-2 border-blue-500 p-6">
