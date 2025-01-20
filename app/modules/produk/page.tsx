@@ -36,7 +36,9 @@ export default function ProdukPage() {
   useEffect(() => {
     // Logika untuk mengambil parameter URL
     const categoryFromUrl = searchParams.get("category");
-    console.log(categoryFromUrl); // Cek hasilnya di chrome atau yang lain
+    if (categoryFromUrl) {
+      setSelectedCategory(categoryFromUrl.toLowerCase());
+    }
   }, [searchParams]);
 
   const filteredProducts = products.filter((product) => {
