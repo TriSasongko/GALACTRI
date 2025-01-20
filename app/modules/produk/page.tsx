@@ -32,6 +32,13 @@ export default function ProdukPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
 
+  // Mengambil kategori dari URL
+  useEffect(() => {
+    // Logika untuk mengambil parameter URL akan ditambahkan nanti
+  }, []);
+  
+
+
   const filteredProducts = products.filter((product) => {
     const matchesSearch = product.name
       .toLowerCase()
