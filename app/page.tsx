@@ -8,6 +8,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
 
+  const handleSearch = (e: React.FormEvent) => {}
 
   return (
     <div className="text-center">
