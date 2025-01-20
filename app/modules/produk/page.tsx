@@ -27,17 +27,17 @@ export default function ProdukPage() {
       category: "matic",
     },
   ];
-  
+
   const searchParams = useSearchParams();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   // Mengambil kategori dari URL
   useEffect(() => {
-    // Logika untuk mengambil parameter URL akan ditambahkan nanti
-  }, []);
-  
-
+    // Logika untuk mengambil parameter URL
+    const categoryFromUrl = searchParams.get("category");
+    console.log(categoryFromUrl); // Cek hasilnya di chrome atau yang lain
+  }, [searchParams]);
 
   const filteredProducts = products.filter((product) => {
     const matchesSearch = product.name
