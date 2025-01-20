@@ -168,10 +168,14 @@ const AboutPage = () => {
               <div className="mt-3 text-white">{item.text}</div>
             </div>
           ))}
+       </div>
+       </div>
+
+     
+     
         
 
-       </div>
-       </div>
+       
 
 
         
