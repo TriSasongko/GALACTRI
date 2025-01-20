@@ -35,11 +35,16 @@ export default function ProdukPage() {
   // Mengambil kategori dari URL
   useEffect(() => {
     // Logika untuk mengambil parameter URL
-    const categoryFromUrl = searchParams.get("category");
-    const searchFromUrl = searchParams.get("search");
+    const categoryFromUrl = searchParams.get("category"); // Mengambil kategori dari URL
+    const searchFromUrl = searchParams.get("search"); // Mengambil kata kunci pencarian dari URL
     
+    // Menyimpan kategori ke state
     if (categoryFromUrl) {
       setSelectedCategory(categoryFromUrl.toLowerCase());
+    }
+    // Menyimpan kata kunci pencarian ke state
+    if (searchFromUrl) {
+      setSearchQuery(searchFromUrl); 
     }
   }, [searchParams]);
 
