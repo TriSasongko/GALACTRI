@@ -1,10 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 export default function Home() {
 
   const [searchQuery, setSearchQuery] = useState("");
+  const router = useRouter();
+
 
   return (
     <div className="text-center">
