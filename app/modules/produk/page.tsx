@@ -36,6 +36,8 @@ export default function ProdukPage() {
   useEffect(() => {
     // Logika untuk mengambil parameter URL
     const categoryFromUrl = searchParams.get("category");
+    const searchFromUrl = searchParams.get("search");
+    
     if (categoryFromUrl) {
       setSelectedCategory(categoryFromUrl.toLowerCase());
     }
