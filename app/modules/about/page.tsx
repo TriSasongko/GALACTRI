@@ -156,7 +156,19 @@ const AboutPage = () => {
               ),
               icon: "🚀"
             }
-            
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="relative bg-gradient-to-br from-blue-500 to-green-400 p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+            >
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-white text-blue-500 flex items-center justify-center rounded-full shadow-md">
+                <span className="text-2xl">{item.icon}</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white">{item.title}</h3>
+              <div className="mt-3 text-white">{item.text}</div>
+            </div>
+          ))}
+        
 
        </div>
        </div>
