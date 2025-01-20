@@ -30,7 +30,10 @@ export default function Home() {
           placeholder="Cari Motor..."
           className="border border-gray-300 rounded-lg px-4 py-2 w-1/2"
         />
-        <button className="bg-blue-500 text-white px-4 py-2 ml-2 rounded-lg hover:bg-blue-600">
+        <button
+          type="submit"
+          className="bg-blue-500 text-white px-4 py-2 ml-2 rounded-lg hover:bg-blue-600"
+        >
           Search
         </button>
       </form>
