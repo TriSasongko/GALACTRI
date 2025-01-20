@@ -133,6 +133,20 @@ const AboutPage = () => {
         </div>
       </div>
 
+       {/* Vision & Mission Section */}
+       <div className="mt-12">
+       <h2 className="text-4xl font-extrabold text-gray-900 text-center">Visi & Misi</h2>
+       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+       {[ 
+            {
+              title: "Visi",
+              text: "Menjadi platform terkemuka yang memudahkan pencarian dan pembelian motor dengan memberikan informasi yang akurat, terpercaya, dan relevan, serta menawarkan pengalaman berbelanja yang nyaman dan menyenangkan bagi semua pengguna.",
+              icon: "🌟"
+            },
+            
+       </div>
+       </div>
+
 
         
 
