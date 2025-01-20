@@ -143,7 +143,21 @@ const AboutPage = () => {
               text: "Menjadi platform terkemuka yang memudahkan pencarian dan pembelian motor dengan memberikan informasi yang akurat, terpercaya, dan relevan, serta menawarkan pengalaman berbelanja yang nyaman dan menyenangkan bagi semua pengguna.",
               icon: "🌟"
             },
+            {
+              title: "Misi",
+              text: (
+                <div className="text-gray-100">
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Menyediakan informasi lengkap, terkini, dan terpercaya tentang berbagai jenis motor, termasuk spesifikasi dan harga.</li>
+                    <li>Mempermudah pengguna dalam membandingkan motor melalui antarmuka yang mudah digunakan dan fitur pencarian yang sesuai preferensi.</li>
+                    <li>Menawarkan fitur filter dan rekomendasi motor yang membantu pengguna memilih sesuai dengan kebutuhan dan anggaran mereka.</li>
+                  </ul>
+                </div>
+              ),
+              icon: "🚀"
+            }
             
+
        </div>
        </div>
 
