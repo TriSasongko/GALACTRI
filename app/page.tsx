@@ -25,6 +25,8 @@ export default function Home() {
       <form onSubmit={handleSearch} className="mb-6">
         <input
           type="text"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Cari Motor..."
           className="border border-gray-300 rounded-lg px-4 py-2 w-1/2"
         />
