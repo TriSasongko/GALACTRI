@@ -10,6 +10,10 @@ export default function Home() {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!searchQuery.trim()) {
+      return;
+    }
+  
   };
 
   return (
