@@ -27,6 +27,8 @@ export default function ProdukPage() {
       category: "matic",
     },
   ];
+  
+  const searchParams = useSearchParams();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
 
