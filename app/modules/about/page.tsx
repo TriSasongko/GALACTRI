@@ -171,6 +171,11 @@ const AboutPage = () => {
        </div>
        </div>
 
+       {/* Contact Section */}
+<div className="relative mt-16 py-16 bg-gradient-to-br from-blue-50 to-indigo-100">
+  
+</div>
+
      
      
         
