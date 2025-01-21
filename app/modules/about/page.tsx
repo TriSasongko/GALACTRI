@@ -7,11 +7,11 @@ const AboutPage = () => {
      {/* Hero Section with Video */}
      <div className="relative">
         <video
-          src="/vid.mp4" // Ganti dengan path video Anda
+          src="/vid.mp4" 
           className="w-full h-90 object-cover"
           autoPlay
           loop
-          muted
+          preload="auto" // Memastikan video dimuat sepenuhnya
         />
          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
@@ -178,9 +178,9 @@ const AboutPage = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
     <img
-    src="/mtr.jpeg" // Ganti dengan path ke gambar Anda
+    src="/mtr.jpeg" 
     alt="Background"
-    className="w-full h-full object-cover opacity-80 "  /* Menurunkan blur dan meningkatkan opacity */
+    className="w-full h-full object-cover opacity-80 "  
     />
     <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-indigo-600/30"></div>  {/* Mengurangi kegelapan gradient */}
     </div>
