@@ -193,6 +193,17 @@ export default function ProdukPage() {
                 Spesifikasi
               </button>
             </div>
+            {activeTab === "description" ? (
+              <p>{selectedProduct.description}</p>
+            ) : (
+              <ul>
+                {selectedProduct.specifications.map((spec) => (
+                  <li key={spec.label}>
+                    <strong>{spec.label}:</strong> {spec.value}
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
       )}
