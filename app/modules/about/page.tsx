@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Mail } from 'lucide-react';
+import { Instagram, Mail, Phone, MapPinCheck } from 'lucide-react';
 
 const AboutPage = () => {
   return (
@@ -211,8 +211,23 @@ const AboutPage = () => {
         </div>
       </div>
 
-
-
+      
+      {/* Card Phone */}
+      <div className="relative bg-white rounded-lg shadow-xl overflow-hidden transition transform hover:scale-105 hover:shadow-2xl">
+        <div className="absolute inset-0 bg-gradient-to-br from-indigo-200/40 to-blue-300/10 opacity-10"></div>
+        <div className="p-8 text-center space-y-4">
+          <Phone className="w-10 h-10 mx-auto text-indigo-500" />
+          <h3 className="text-xl font-bold text-gray-900">Telepon</h3>
+          <p className="text-gray-600">Hubungi kami langsung untuk diskusi cepat.</p>
+          <a
+            href="tel:+621234567890"
+            className="block mt-4 text-indigo-500 font-medium hover:underline"
+          >
+            081379200384
+          </a>
+        </div>
+      </div>
+      
 
    </div>
    </div>         
