@@ -171,6 +171,28 @@ export default function ProdukPage() {
                 ✕
               </button>
             </div>
+            <div className="mb-4">
+              <button
+                onClick={() => setActiveTab("description")}
+                className={`px-4 py-2 rounded-t-lg ${
+                  activeTab === "description"
+                    ? "bg-blue-500 text-white"
+                    : "bg-gray-100"
+                }`}
+              >
+                Deskripsi
+              </button>
+              <button
+                onClick={() => setActiveTab("specifications")}
+                className={`px-4 py-2 rounded-t-lg ${
+                  activeTab === "specifications"
+                    ? "bg-blue-500 text-white"
+                    : "bg-gray-100"
+                }`}
+              >
+                Spesifikasi
+              </button>
+            </div>
           </div>
         </div>
       )}
