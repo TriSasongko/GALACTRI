@@ -171,7 +171,10 @@ export default function ProdukPage() {
                   {product.name}
                 </h2>
                 <p className="text-gray-500">{product.price}</p>
-                <button className="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition-colors">
+                <button
+                  onClick={() => handleOpenModal(product)}
+                  className="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition-colors"
+                >
                   Lihat Detail
                 </button>
               </div>
