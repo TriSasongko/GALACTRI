@@ -47,6 +47,9 @@ export default function ProdukPage() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState<"description" | "specifications">(
+    "description"
+  );
 
   // Mengambil kategori dari URL
   useEffect(() => {
