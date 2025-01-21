@@ -183,6 +183,17 @@ const AboutPage = () => {
     <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-indigo-600/30"></div>  {/* Mengurangi kegelapan gradient */}
     </div>
 
+    <div className="relative text-center space-y-6 mb-12">
+    <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
+      Hubungi Kami
+    </h2>
+    <p className="text-gray-100 max-w-2xl mx-auto">
+      Kami siap membantu Anda mencapai tujuan digital Anda. Jangan ragu untuk menghubungi kami melalui email atau telepon di bawah ini.
+    </p>
+  </div>
+
+  
+
       </div>
 
      
