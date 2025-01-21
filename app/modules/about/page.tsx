@@ -227,6 +227,18 @@ const AboutPage = () => {
           </a>
         </div>
       </div>
+
+         {/* Card Address */}
+<div className="relative bg-white rounded-lg shadow-xl overflow-hidden transition transform hover:scale-105 hover:shadow-2xl">
+  <div className="absolute inset-0 bg-gradient-to-br from-indigo-200/40 to-blue-300/10 opacity-10"></div>
+  <div className="p-8 text-center space-y-4">
+    <MapPinCheck className="w-10 h-10 mx-auto text-indigo-500" />
+    <h3 className="text-xl font-bold text-gray-900">Alamat</h3>
+    <p className="text-gray-600">Kunjungi kantor kami untuk diskusi lebih mendalam.</p>
+    <p className="mt-4 text-indigo-500 font-medium">Bandar Lampung</p>
+  </div>
+</div>     
+      
       
 
    </div>
