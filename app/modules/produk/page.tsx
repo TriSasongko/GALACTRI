@@ -7,6 +7,15 @@ interface Specification {
   label: string;
   value: string;
 }
+interface Product {
+  id: number;
+  name: string;
+  price: string;
+  image: string;
+  category: string;
+  description: string;
+  specifications: Specification[];
+}
 
 export default function ProdukPage() {
   const products = [
