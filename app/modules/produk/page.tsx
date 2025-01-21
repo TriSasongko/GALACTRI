@@ -198,6 +198,13 @@ export default function ProdukPage() {
                 ✕
               </button>
             </div>
+            <div className="w-full h-48 bg-gray-200 flex items-center justify-center mb-4">
+              <img
+                src={selectedProduct.image}
+                alt={selectedProduct.name}
+                className="max-w-full max-h-full object-contain"
+              />
+            </div>
             <div className="mb-4 flex">
               <button
                 onClick={() => setActiveTab("description")}
