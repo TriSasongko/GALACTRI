@@ -3,6 +3,11 @@
 import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 
+interface Specification {
+  label: string;
+  value: string;
+}
+
 export default function ProdukPage() {
   const products = [
     {
@@ -37,14 +42,14 @@ export default function ProdukPage() {
     // Logika untuk mengambil parameter URL
     const categoryFromUrl = searchParams.get("category"); // Mengambil kategori dari URL
     const searchFromUrl = searchParams.get("search"); // Mengambil kata kunci pencarian dari URL
-    
+
     // Menyimpan kategori ke state
     if (categoryFromUrl) {
       setSelectedCategory(categoryFromUrl.toLowerCase());
     }
     // Menyimpan kata kunci pencarian ke state
     if (searchFromUrl) {
-      setSearchQuery(searchFromUrl); 
+      setSearchQuery(searchFromUrl);
     }
   }, [searchParams]);
 
