@@ -237,12 +237,21 @@ const AboutPage = () => {
     <p className="text-gray-600">Kunjungi kantor kami untuk diskusi lebih mendalam.</p>
     <p className="mt-4 text-indigo-500 font-medium">Bandar Lampung</p>
   </div>
-</div>     
+</div> 
+</div>
+   </div>    
       
+      
+<div className="relative mt-12 text-center">
+  <a href="https://wa.me/6285832800738?text=Hai%2C%20saya%20ingin%20bertanya" target="_blank">
+    <button className="px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full font-semibold hover:shadow-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-300">
+      Kirim Pesan Sekarang
+    </button>
+  </a>
+</div>
       
 
-   </div>
-   </div>         
+          
 
 
       </div>
