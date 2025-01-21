@@ -45,6 +45,7 @@ export default function ProdukPage() {
   const searchParams = useSearchParams();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   // Mengambil kategori dari URL
   useEffect(() => {
