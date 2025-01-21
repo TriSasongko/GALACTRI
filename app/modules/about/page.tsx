@@ -211,7 +211,7 @@ const AboutPage = () => {
         </div>
       </div>
 
-      
+
 
 
    </div>
