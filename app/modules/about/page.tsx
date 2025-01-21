@@ -171,10 +171,19 @@ const AboutPage = () => {
        </div>
        </div>
 
-       {/* Contact Section */}
-<div className="relative mt-16 py-16 bg-gradient-to-br from-blue-50 to-indigo-100">
-  
-</div>
+      {/* Contact Section */}
+      <div className="relative mt-16 py-16 bg-gradient-to-br from-blue-50 to-indigo-100">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+    <img
+    src="/mtr.jpeg" // Ganti dengan path ke gambar Anda
+    alt="Background"
+    className="w-full h-full object-cover opacity-80 "  /* Menurunkan blur dan meningkatkan opacity */
+    />
+    <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-indigo-600/30"></div>  {/* Mengurangi kegelapan gradient */}
+    </div>
+
+      </div>
 
      
      
