@@ -195,7 +195,23 @@ const AboutPage = () => {
    <div className="relative max-w-6xl mx-auto px-6 lg:px-12">
    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-    
+     {/* Card Email */}
+     <div className="relative bg-white rounded-lg shadow-xl overflow-hidden transition transform hover:scale-105 hover:shadow-2xl">
+        <div className="absolute inset-0 bg-gradient-to-br from-indigo-200/40 to-blue-300/10 opacity-10"></div>
+        <div className="p-8 text-center space-y-4">
+          <Mail className="w-10 h-10 mx-auto text-indigo-500" />
+          <h3 className="text-xl font-bold text-gray-900">Email</h3>
+          <p className="text-gray-600">Kirimkan pesan atau pertanyaan Anda kepada kami.</p>
+          <a
+            href="mailto:info@example.com"
+            className="block mt-4 text-indigo-500 font-medium hover:underline"
+          >
+          galuhmahesaputra270103@gmail.com
+          </a>
+        </div>
+      </div>
+
+      
 
 
    </div>
