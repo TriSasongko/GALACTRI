@@ -61,6 +61,9 @@ export default function ProdukPage() {
   ];
   const router = useRouter();
   const searchParams = useSearchParams();
+  const initialSearchQuery = searchParams.get("search") || "";
+  const initialCategory = searchParams.get("category") || "all";
+
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
