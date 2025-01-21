@@ -25,6 +25,12 @@ export default function ProdukPage() {
       price: "Rp 15.000.000",
       image: "/PCX.png",
       category: "matic",
+      description: "PCX adalah motor matic terbaik di kelasnya.",
+      specifications: [
+        { label: "Mesin", value: "150cc" },
+        { label: "Tipe", value: "Matic" },
+        { label: "Warna", value: "Hitam" },
+      ],
     },
     {
       id: 2,
@@ -32,6 +38,12 @@ export default function ProdukPage() {
       price: "Rp 18.000.000",
       image: "/kws650.png",
       category: "sport",
+      description: "Kawasaki sport dengan performa tinggi.",
+      specifications: [
+        { label: "Mesin", value: "650cc" },
+        { label: "Tipe", value: "Sport" },
+        { label: "Warna", value: "Hijau" },
+      ],
     },
     {
       id: 3,
@@ -39,6 +51,12 @@ export default function ProdukPage() {
       price: "Rp 20.000.000",
       image: "/vario.png",
       category: "matic",
+      description: "Vario, motor matic untuk segala kebutuhan.",
+      specifications: [
+        { label: "Mesin", value: "125cc" },
+        { label: "Tipe", value: "Matic" },
+        { label: "Warna", value: "Putih" },
+      ],
     },
   ];
   const router = useRouter();
@@ -167,17 +185,20 @@ export default function ProdukPage() {
           <div className="bg-white rounded-lg p-6 shadow-lg max-w-lg w-full">
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-xl font-bold">{selectedProduct.name}</h2>
-              <button onClick={handleCloseModal} className="text-gray-600">
+              <button
+                onClick={handleCloseModal}
+                className="text-gray-600 hover:text-black transition"
+              >
                 ✕
               </button>
             </div>
-            <div className="mb-4">
+            <div className="mb-4 flex">
               <button
                 onClick={() => setActiveTab("description")}
                 className={`px-4 py-2 rounded-t-lg ${
                   activeTab === "description"
                     ? "bg-blue-500 text-white"
-                    : "bg-gray-100"
+                    : "bg-gray-100 hover:bg-gray-200"
                 }`}
               >
                 Deskripsi
@@ -187,7 +208,7 @@ export default function ProdukPage() {
                 className={`px-4 py-2 rounded-t-lg ${
                   activeTab === "specifications"
                     ? "bg-blue-500 text-white"
-                    : "bg-gray-100"
+                    : "bg-gray-100 hover:bg-gray-200"
                 }`}
               >
                 Spesifikasi
@@ -196,7 +217,7 @@ export default function ProdukPage() {
             {activeTab === "description" ? (
               <p>{selectedProduct.description}</p>
             ) : (
-              <ul>
+              <ul className="list-disc pl-5">
                 {selectedProduct.specifications.map((spec) => (
                   <li key={spec.label}>
                     <strong>{spec.label}:</strong> {spec.value}
