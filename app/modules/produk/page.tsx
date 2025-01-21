@@ -80,6 +80,12 @@ export default function ProdukPage() {
     router.push(`?search=${searchQuery}&category=${selectedCategory}`);
   };
 
+  const handleOpenModal = (product: Product) => {
+    setSelectedProduct(product);
+    setActiveTab("description");
+    setIsModalOpen(true);
+  };
+
   return (
     <main className="p-6 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold text-center mb-8 text-blue-600">
