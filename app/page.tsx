@@ -40,7 +40,7 @@ export default function Home() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Cari Motor..."
-              className="border border-gray-300 rounded-lg px-4 py-2 w-1/2"
+              className="border text-black border-gray-300 rounded-lg px-4 py-2 w-1/2"
             />
             <button
               type="submit"
