@@ -23,7 +23,7 @@ export default function Home() {
     <div className="text-center">
       {/* Struktur Baru Header */}
       <div
-        className="relative bg-cover bg-center h-[500px] flex items-center justify-center"
+        className="relative bg-cover bg-center h-[500px] flex items-center justify-center mb-10"
         style={{
           backgroundImage: 'url("/background.png")',
           backgroundSize: "cover",
