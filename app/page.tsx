@@ -21,7 +21,6 @@ export default function Home() {
 
   return (
     <div className="text-center">
-
       {/* Struktur Baru Header */}
       <div
         className="relative bg-cover bg-center h-[500px] flex items-center justify-center"
@@ -31,24 +30,26 @@ export default function Home() {
           position: "relative",
         }}
       >
-        <h1 className="font-bold mb-4">Selamat Datang di Katalog Motor</h1>
-        <p className="mb-6">Temukan Motor Impian Anda</p>
+        <div className="relative text-white text-center px-4">
+          <h1 className="font-bold mb-4">Selamat Datang di Katalog Motor</h1>
+          <p className="mb-6">Temukan Motor Impian Anda</p>
 
-        <form onSubmit={handleSearch} className="mb-6">
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Cari Motor..."
-            className="border border-gray-300 rounded-lg px-4 py-2 w-1/2"
-          />
-          <button
-            type="submit"
-            className="bg-blue-500 text-white px-4 py-2 ml-2 rounded-lg hover:bg-blue-600"
-          >
-            Search
-          </button>
-        </form>
+          <form onSubmit={handleSearch} className="mb-6">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Cari Motor..."
+              className="border border-gray-300 rounded-lg px-4 py-2 w-1/2"
+            />
+            <button
+              type="submit"
+              className="bg-blue-500 text-white px-4 py-2 ml-2 rounded-lg hover:bg-blue-600"
+            >
+              Search
+            </button>
+          </form>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
