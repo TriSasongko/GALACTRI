@@ -31,8 +31,8 @@ export default function Home() {
         }}
       >
         <div className="relative text-white text-center px-4">
-          <h1 className="font-bold mb-4">Selamat Datang di Katalog Motor</h1>
-          <p className="mb-6">Temukan Motor Impian Anda</p>
+          <h1 className="font-bold text-4xl mb-4">Selamat Datang di Katalog Motor</h1>
+          <p className="text-xl mb-6">Temukan Motor Impian Anda</p>
 
           <form onSubmit={handleSearch} className="mb-6">
             <input
