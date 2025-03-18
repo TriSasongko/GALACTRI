@@ -25,7 +25,7 @@ const AboutPage = () => {
   <div className="mt-4 flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
     <div className="sm:w-1/2">
       <p className="mt-4 text-gray-700 text-justify">
-        "Catalog Motor adalah platform yang dirancang untuk membantu Anda menemukan berbagai jenis motor
+        " Motor adalah platform yang dirancang untuk membantu Anda menemukan berbagai jenis motor
         dengan mudah. Kami menyediakan informasi lengkap tentang spesifikasi, dan harga motor. Dengan antarmuka yang ramah pengguna, Anda dapat dengan cepat membandingkan 
         motor yang Anda minati dan membuat keputusan yang tepat sebelum membeli. Selain itu, kami juga 
         menawarkan berbagai fitur canggih seperti pencarian berdasarkan preferensi pribadi, filter berdasarkan 
