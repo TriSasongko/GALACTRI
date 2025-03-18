@@ -1,5 +1,7 @@
 import React from 'react';
 import { Instagram, Mail, Phone, MapPinCheck } from 'lucide-react';
+console.log("Checking Git contribution issue");
+
 
 const AboutPage = () => {
   return (
@@ -13,12 +15,9 @@ const AboutPage = () => {
           loop
           preload="auto" // Memastikan video dimuat sepenuhnya
         />
-         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-          <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
-            TENTANG KAMI
-          </h1>
-        </div>
+         
       </div>
+      {/* This is a test change */}
 
        {/* Area Konten */}
        <div className="mt-12 bg-gradient-to-r from-blue-200 to-white p-8 rounded-lg shadow-lg">
@@ -152,7 +151,7 @@ const AboutPage = () => {
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Menyediakan informasi lengkap, terkini, dan terpercaya tentang berbagai jenis motor, termasuk spesifikasi dan harga.</li>
                     <li>Mempermudah pengguna dalam membandingkan motor melalui antarmuka yang mudah digunakan dan fitur pencarian yang sesuai preferensi.</li>
-                    
+                    <li>menawarkan fitur fitur filter dan rekomendasi motor yang membantu pengguna memilih sesuai dengan kebutuhan dan anggaran mereka.</li>
                   </ul>
                 </div>
               ),
@@ -187,7 +186,7 @@ const AboutPage = () => {
 
     <div className="relative text-center space-y-6 mb-12">
     <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
-      Hubungi Kami
+      Hubungi saya
     </h2>
     <p className="text-gray-100 max-w-2xl mx-auto">
       Kami siap membantu Anda mencapai tujuan digital Anda. Jangan ragu untuk menghubungi kami melalui email atau telepon di bawah ini.
